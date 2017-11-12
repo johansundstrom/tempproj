@@ -3,10 +3,10 @@
 
 
 #include <ESP8266WiFi.h>
-const char* ssid     = "b9-2";
-const char* password = "onsdagsklubben";
+const char* ssid     = "ssid_here";
+const char* password = "pwd_here";
 const int   httpPort = 3000;
-const char*     host = "be9.asuscomm.com"; //lämna "http://"
+const char*     host = "host_here"; //lämna "http://"
 const char*      url = "/api/floor/room/temp";
 String auth = "fe825afb-da21-4308-9115-8f991c5971ab";
 String data   = "id=1&room=Vardagsrum&temperature=19.752&ctype=NodeMCU&ip=192.168.250.111&auth=" + auth;
