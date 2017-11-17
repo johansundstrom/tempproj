@@ -4,10 +4,10 @@
 #include <DHT.h>;
 
 
-const char* ssid     = "b9-mobile";
-const char* password = "0nsdagsk1ubben";
+const char* ssid     = "ssid";
+const char* password = "password";
 const int   httpPort = 3000;
-const char*     host = "be9.asuscomm.com"; //utelämna "http://"
+const char*     host = "host"; //utelämna "http://"
 const char*      url = "/api/floor/room/temp";
 String          auth = "fe825afb-da21-4308-9115-8f991c5971ab";
 String localIp;
