@@ -5,7 +5,7 @@ En fristående ESP8266 mäter något och skickar data till server med RESTful AP
 
 ## Komponenterna
 ### Sensorn
-Kan vara vad som helst men jag utgår från DHT11 (https://akizukidenshi.com/download/ds/aosong/DHT11.pdf).
+Kan vara vad som helst men jag utgår från DHT22 (http://akizukidenshi.com/download/ds/aosong/AM2302.pdf).
 
 ### ESP
 Sensorsändaren från Espressif (http://espressif.com/en/products/hardware/esp8266ex/overview) ansluter till WiFi och lämnar ifrån sig.
