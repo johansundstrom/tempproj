@@ -13,5 +13,11 @@ Sensorsändaren från Espressif (http://espressif.com/en/products/hardware/esp82
 ### Server
 Servern består av RPi och kör Node. RESTful API enligt "host:TCP/api/floor/room/temp". Varje sändning sker med POST och lagras direkt i extern DB.
 
+### Databas
+Alla sensorläsningar lagras i databas med serverns tidstämpel i epochformat
+
 ### WWW-server
 Processat data levereras med D3.js för rendering i användarklient.
+
+### dataplot
+Enklast möjliga just nu men thingsspeak levererar temp och humid-trend
