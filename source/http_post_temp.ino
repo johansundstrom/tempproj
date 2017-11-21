@@ -38,7 +38,7 @@ void setup() {
   Serial.println(); 
   Serial.println();
 
-  // anslut till host
+  // etablerar wifi
   Serial.print("Ansluter till: ");
   Serial.println(ssid);
 
