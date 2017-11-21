@@ -117,7 +117,7 @@ void loop() {
     client.print(data);
     Serial.println(" Sänt!]");
 
-    // respons
+    // HTTP respons
     Serial.println();
     Serial.println("[Response från server på ovanstående request]");
     while (client.connected()) {
