@@ -7,7 +7,6 @@ Att bygga postdata med variabler såg krångligt ut.
 */
 
 // https://github.com/esp8266/Arduino/tree/master/doc/esp8266wifi
-
 #include <ESP8266WiFi.h>
 #include <ArduinoJson.h> 
 #include <DHT.h>;
