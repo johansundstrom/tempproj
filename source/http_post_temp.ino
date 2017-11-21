@@ -65,14 +65,15 @@ void setup() {
 
 
 void loop() {
+  // kommunicera med DHT22
   // https://create.arduino.cc/projecthub/attari/temperature-monitoring-with-dht22-arduino-15b013
-  //hämta värden från DHT
+  
   // humid
   float h = dht.readHumidity();
   // temperatur Celsius (default)
   float t = dht.readTemperature();
   // temperature Fahrenheit (isFahrenheit = true)
-  float f = dht.readTemperature(true);
+  // float f = dht.readTemperature(true);
   // heat index? Vem behöver det?
   float hic = dht.computeHeatIndex(t, h, false);
 
